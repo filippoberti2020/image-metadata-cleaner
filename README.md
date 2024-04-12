@@ -1,5 +1,6 @@
 # Image Metadata Cleaner
 ![Preview](preview.png)
+
 ## Overview
 This open-source project is a privacy-focused image metadata cleaner built using HTML, CSS, and JavaScript. The website allows users to clean metadata on the client-side without uploading images to a server, ensuring privacy, speed, and quality.
 
@@ -20,6 +21,8 @@ This open-source project is a privacy-focused image metadata cleaner built using
 3. Upload the image you want to clean metadata for.
 4. Click the clean metadata button to process the image locally.
 5. Download the cleaned image with metadata removed.
+
+**To use the online version of the tool, visit [Image Metadata Cleaner](https://image-metadata-cleaner.vercel.app).**
 
 ## Contributing
 We welcome contributions to improve this project. Feel free to fork the repository and submit a pull request with your enhancements.
