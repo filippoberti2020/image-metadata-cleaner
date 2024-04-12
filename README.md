@@ -1,5 +1,5 @@
 # Image Metadata Cleaner
-
+![Preview](preview.png)
 ## Overview
 This open-source project is a privacy-focused image metadata cleaner built using HTML, CSS, and JavaScript. The website allows users to clean metadata on the client-side without uploading images to a server, ensuring privacy, speed, and quality.
 
