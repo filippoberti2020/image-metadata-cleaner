@@ -4,6 +4,8 @@
 ## Overview
 This open-source project is a privacy-focused image metadata cleaner built using HTML, CSS, and JavaScript. The website allows users to clean metadata on the client-side without uploading images to a server, ensuring privacy, speed, and quality.
 
+**NOTE: Exif data exists only in TIFF, JPEG(JPG) & HEIC, but not in png, gif images.**
+
 ## Features
 - Clean image metadata locally
 - Privacy-focused design
