@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="description" content="Image Metadata Cleaner is a privacy-focused open-source tool that allows users to clean metadata from images locally without uploading them to a server. Enjoy fast and efficient processing with a user-friendly interface.">
+    <title>Image Metadata Cleaner - Privacy-Focused Image Metadata Cleaning Tool</title>
+    <link rel="stylesheet" href='/static/styles2.css' />
+</head>
+<body>
+    <h1>Download Cleaned Images</h1>
+    <ul>
+        {% for file in files %}
+            <li><a href="{{ url_for('download', filename=file) }}" download>{{ file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Image Metadata Cleaner is a privacy-focused open-source tool that allows users to clean metadata from images locally without uploading them to a server. Enjoy fast and efficient processing with a user-friendly interface.">
+    <title>Image Metadata Cleaner - Privacy-Focused Image Metadata Cleaning Tool</title>
+    <link rel="stylesheet" href='/static/styles.css' />
+</head>
+<body>
+    <h1>Image Metadata Cleaner</h1>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input id="image-upload" type="file" name="image" accept="image/*" multiple>
+        <br>
+        <button id="download-button" type="submit">Download clean version</button>
+    </form>
+</body>
+</html>
